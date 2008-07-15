@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="Users" type="UsersType"/>
+  <xsd:complexType name="UsersType">
+    <xsd:sequence>
+      <xsd:element name="User" minOccurs="1" maxOccurs="unbounded">
+        <xsd:complexType>
+          <xsd:attribute name="Id" type="xsd:positiveInteger" use="required"/>
+          <xsd:attribute name="ApplicationId" type="xsd:positiveInteger" use="required"/>
+          <xsd:attribute name="UserName" type="xsd:string" use="required"/>
+          <xsd:attribute name="FirstName" type="xsd:string" use="required"/>
+          <xsd:attribute name="LastName" type="xsd:string" use="required"/>
+          <xsd:attribute name="IsPublicUser" type="xsd:boolean" use="required"/>
+          <xsd:attribute name="Inactive" type="xsd:boolean" use="required"/>
+          <xsd:attribute name="RowTimestamp" type="xsd:string" use="required"/>
+          <xsd:attribute name="FullName" type="xsd:string" use="required"/>
+          <xsd:attribute name="LoginName" type="xsd:string" use="required"/>
+          <xsd:attribute name="OldReference" type="xsd:string" use="required"/>
+          <xsd:attribute name="Telephone" type="xsd:positiveInteger" use="required"/>
+          <xsd:attribute name="ParentId" type="xsd:nonNegativeInteger" use="optional"/>
+          <xsd:attribute name="Supervisor" type="xsd:nonNegativeInteger" use="optional"/>
+          <xsd:attribute name="Password" type="xsd:string" use="optional"/>
+          <xsd:attribute name="Grade" type="xsd:string" use="optional"/>
+          <xsd:attribute name="EMail" type="xsd:string" use="optional"/>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>
