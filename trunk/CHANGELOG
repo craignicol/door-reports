@@ -1,0 +1,13 @@
+DONE:
+Fixed the nested p problem, made ipy code callable from command line. Removed sensitive user data.
+Add a re-package step to odrutili.generate_ss()
+Add a method to rebuild a valid odt file
+Create a python (not just ironpython) sample
+Created an ODT sample file with explanation
+Fixed door_poc.odt to ork with existing code
+
+TODO:
+Update the IronPython example
+Create a project page for public consumption
+Allow linebreaks within embedded sections.
+Need a better solution to nested p, trying sections

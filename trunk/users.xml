@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Users>
+	<User Id="1" ApplicationId="1" UserName="Administrator" FirstName="Administrator" LastName="User" IsPublicUser="0" Inactive="0" RowTimestamp="AAAAAAAADhU=" FullName="Administrator User" LoginName="Administrator" OldReference="Administrator" Telephone="6460"/>
+	<User Id="2" ApplicationId="1" UserName="vm\swadmin" FirstName="SWAdmin" LastName="User" IsPublicUser="0" Inactive="0" RowTimestamp="AAAAAAAADhY=" FullName="SWAdmin User" LoginName="swadmin" OldReference="swadmin" Telephone="6460"/>
+	<User Id="10012" ParentId="0" Supervisor="0" ApplicationId="1" UserName="RTEL.COM\Craig.Nicol" Password="" FirstName="Craig" LastName="Nicol" IsPublicUser="0" Grade="" Inactive="0" RowTimestamp="AAAAAAAAKW0=" FullName="Craig Nicol" LoginName="Craig.Nicol" EMail="" OldReference="cn1" Telephone="6460"/>
+</Users>
+
