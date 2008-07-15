@@ -7,5 +7,4 @@ This is just a proof of concept to see what is possible with XSLT and ODF to rep
 
 = Disclaimer =
 
-The proof of concept currently uses an XSLT stylesheet to generate a door-compatible file (with the placeholder filename of or? to compliment the od? convention of ODF). Whilst this is useful for automatically generating test documents that can be hand-edited, I do not anticipate this being the primary means of developing door-compatible files.
-
+The proof of concept currently uses an XSLT stylesheet to generate a door-compatible file (with the placeholder filename of or? to compliment the od? convention of ODF). Whilst this is useful for automatically generating test documents that can be hand-edited, I do not anticipate this being the primary means of developing door-compatible files. In particular, this method is prone to producing invalid ODF output files that contain nested `text:p` elements.
