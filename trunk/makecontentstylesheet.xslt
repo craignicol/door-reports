@@ -74,6 +74,7 @@
     </xslt:variable>
     <xslt:choose>
       <!-- Elements: merge -->
+      <!-- merge template based on LGPL code at : http://www2.informatik.hu-berlin.de/~obecker/XSLT/#merge -->
       <xslt:when test="$type1='element'">
         <xslt:element name="{name(.)}" namespace="{namespace-uri(.)}">
           <xslt:copy-of select="./namespace::*"/>
